@@ -2,11 +2,17 @@
 
 ## Latihan 1: Mencari Angka Terbesar dari Sejumlah Bilangan yang Diinputkan Sebelum Diinputkan 0
 
+
 *Alur Algoritma*
 1. Deklarasikan variabel `int n=0` dan `int max=0`
 2. Membaca input dari keyboard `cin >> n`
 3. Bandingkan `n > max` proses diulangi selama nilai n tidak berjumlah 0
 4. Cetak `max`
+
+*Flowchart Program*
+
+![flowchart1](https://github.com/rumiumi/Praktikum4/blob/master/flowchart1.jpg)
+
 
 *Berikut code lengkapnya*
 ```
@@ -32,6 +38,10 @@ int main() {
 
 ```
 
+*Hasilnya*
+
+![hasil1](https://github.com/rumiumi/Praktikum4/blob/master/hasil1.PNG)
+
 ## Latihan 2: Program Struk Belanja Indoapril
 
 *Alur Algoritma*
@@ -47,6 +57,11 @@ int main() {
 10. Bila `stotal > 500000` hitung potongan harga Nx5% `dis=(stotal/100)*5` lalu kurangi harga subtotal dengan potongan harga `total=stotal-dis` kemudian simpan persentase diskon `d = 5`
 11. Cetak `cout << N << e << stotal << d << total`
 12. Tampilkan pesan penutup *terima kasih*
+
+*Flowchart Program*
+
+![flowchart2](https://github.com/rumiumi/Praktikum4/blob/master/flowchart2.jpg)
+
 
 *Berikut code lengkapnya*
 ```
@@ -133,3 +148,9 @@ int main() {
 }
 
 ```
+
+*Hasilnya*
+
+![hasil2-1](https://github.com/rumiumi/Praktikum4/blob/master/hasil2-1.PNG)
+![hasil2-2](https://github.com/rumiumi/Praktikum4/blob/master/hasil2-2.PNG)
+
